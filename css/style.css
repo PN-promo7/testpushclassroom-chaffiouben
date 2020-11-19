@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+nav {
+  font-family: 'Sansita', sans-serif;
+  color: black;
+  font-size: 25px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.mainnav i {
+  display: none;
+}
+
+.navmenu {
+  height: 35%;
+  display: inline-block;
+  padding: 0px 43px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainnav {
+  display: flex;
+  align-items: center;
+}
+
+.navmenu li {
+  display: inline-block;
+  margin-right: 10px;
+  border: black;
+}
+
+.mainnav a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+header {
+  background-image: url("../image/photoheader.jpeg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: white;
+  text-shadow: 0.1em 0.1em grey;
+  font-size: 60px;
+  padding: 192px 0px 277px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+a {
+  font-family: 'Sansita', sans-serif;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+h2 {
+  padding-top: 60px;
+  font-family: 'Sedgwick Ave', cursive;
+  text-align: center;
+}
+
+h3 {
+  font-size: 50px;
+  color: red;
+  font-family: 'Sansita', sans-serif;
+  text-align: center;
+  padding-top: 80px;
+}
+
+h4 {
+  font-family: 'Sansita', sans-serif;
+  text-align: center;
+  margin: 12px 12px;
+  color: black;
+}
+
+h5 {
+  font-family: 'Sansita', sans-serif;
+  color: red;
+  text-align: center;
+  font-size: 20px
+}
+
+.logosite {
+  height: 50px;
+  margin: 20px 0px 18px 0px;
+  padding: 6px 0px
+}
+
+.logocompte, .logofavoris, .logoacheter {
+  height: 35px;
+}
+
+.barrerecherche {
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-right: 40px;
+  margin-left: 70px;
+}
+
+.margelogo {
+  margin-bottom: 15px;
+}
+
+.col img {
+  width: 319px;
+  height: 180px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.menucl a {
+  text-decoration: none;
+  color: white;
+}
+
+.menucl a:hover {
+  color: brown;
+}
+
+.menu1:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.menu2:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.menu3:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.menu4:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.menucl {
+  justify-content: space-between;
+  list-style-type: none;
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 120px;
+}
+
+.single-cat {
+  background-image: url("../image/menu4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: 'Secular One', sans-serif;
+  font-size: 30px;
+  height: 212px;
+  margin: 13px;
+  text-align: center;
+  width: 318px;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.single-cat:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 500ms;
+}
+
+.single-cat.cat-sdb {
+  background-image: url("../image/menu1.jpg");
+}
+
+.single-cat.cat-salon {
+  background-image: url("../image/menu2.jpg");
+}
+
+.single-cat.cat-cat-bureau {
+  background-image: url("../image/menu3.jpg");
+}
+
+.single-cat.cat-chambre {
+  background-image: url("../image/menu4.jpg");
+}
+
+.btn {
+  background-color: red;
+  border-radius: 5px;
+  padding: 4px 76px;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.row {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: red;
+  font-family: 'Secular One', sans-serif;
+}
+
+footer {
+  background-color: #C4C4C4;
+  padding: 25px;
+  text-align: center;
+}
+
+a:hover {
+  color: brown;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer3 p {
+  padding-right: 70px;
+}
+
+.footer3 {
+  border-right: 3px solid white;
+  font-family: 'Sansita', sans-serif;
+  color: black;
+  font-size: 24px;
+  padding-left: 13px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: brown;
+}
+
+.logofrance {
+  width: 30px;
+  height: 30px;
+}
+
+.barrefooter {
+  font-size: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
